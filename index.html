@@ -1,0 +1,404 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Neev Healthcare
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+  <style>
+    .team-member img {
+      transition: transform 0.3s ease-in-out;
+    }
+    .team-member img:hover {
+      transform: scale(1.1);
+    }
+    body.dark-mode {
+      background-color: #121212;
+      color: #ffffff;
+    }
+    body.dark-mode .bg-white {
+      background-color: #1e1e1e;
+    }
+    body.dark-mode .text-gray-600 {
+      color: #b0b0b0;
+    }
+    body.dark-mode .text-gray-700 {
+      color: #c0c0c0;
+    }
+    body.dark-mode .bg-gray-100 {
+      background-color: #2e2e2e;
+    }
+    body.dark-mode .border-gray-300 {
+      border-color: #444444;
+    }
+    body.dark-mode .hover\:text-gray-900:hover {
+      color: #e0e0e0;
+    }
+  </style>
+ </head>
+ <body class="font-roboto">
+  <header class="bg-white shadow-md">
+   <div class="container mx-auto flex justify-between items-center py-4 px-6">
+    <div class="flex items-center">
+     <img alt="Neev logo in white color - a stylized representation of healthcare and technology integration" class="h-10 w-10" height="50" src="neev.svg" width="50"/>
+     <span class="ml-2 text-xl font-bold">
+      Neev
+     </span>
+    </div>
+    <nav class="space-x-4">
+
+     <a href="what-we-do.html" id="link">What We Do</a>
+    
+
+     <a href="whoweare.html" id="link">Who we are</a>
+
+     <a href="partners.html" id="link">Partners</a>
+
+     <a href="career.html" id="link">Career</a>
+
+     <a href="miniproject.html" id="link">Mini Projects</a>
+
+
+     <a href="sign.html" id="link">Sign Up</a>
+
+    
+    </nav>
+    <button id="dark-mode-toggle" class="bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600">
+      <i class="fas fa-moon"></i>
+    </button>
+   </div>
+  </header>
+  <main class="container mx-auto px-6 py-12">
+   <section class="text-center mb-12">
+    <h1 class="text-4xl font-bold mb-4">
+     Connecting Patients and Providers Through Precision
+    </h1>
+    <p class="text-lg text-gray-700 mb-6">
+     Making healthcare simple, smart, and more human-centric by reducing admin work, saving time, and enabling doctors to focus on what truly matters - Patients
+    </p>
+    <button class="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600">
+     Talk to Us
+    </button>
+   </section>
+   <section class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+    <div class="calendar-container">
+     <img alt="Calendar icon representing scheduling and time management with an attractive design" class="w-full h-auto" height="100" src="https://storage.googleapis.com/a1aa/image/Dy8AnneoyKV6IydcEIEZUKvNUNS1VmZrQ0j5AZYDhw58rKAKA.jpg" width="100"/>
+    </div>
+    <div class="flex flex-col justify-center">
+     <h2 class="text-3xl font-bold mb-4">
+      Effortless Documentation For Smarter Healthcare
+     </h2>
+     <p class="text-lg text-gray-700 mb-6">
+      Automate your documentation process with Neev - seamless, accurate, and ready for your EMRs.
+     </p>
+     <ul class="space-y-4">
+      <li class="flex items-center">
+       <i class="fas fa-comments text-blue-500 text-2xl mr-4">
+       </i>
+       <span class="text-lg">
+        Transcribe Conversations: Record and summarise doctor-patient interactions with speaker diarisation.
+       </span>
+      </li>
+      <li class="flex items-center">
+       <i class="fas fa-user text-blue-500 text-2xl mr-4">
+       </i>
+       <span class="text-lg">
+        Empower Patients: Share Patient Visit Summaries (PVS) for continuity in care.
+       </span>
+      </li>
+      <li class="flex items-center">
+       <i class="fas fa-sync-alt text-blue-500 text-2xl mr-4">
+       </i>
+       <span class="text-lg">
+        Integrate Seamlessly: Send summaries directly to EMR.
+       </span>
+      </li>
+     </ul>
+    </div>
+   </section>
+   <section class="text-center mb-12">
+    <h2 class="text-3xl font-bold mb-4">
+     Precision AI for Modern Healthcare
+    </h2>
+    <p class="text-lg text-gray-700 mb-6">
+     Custom-built intelligence to simplify, secure, and redefine patient care.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+     <div class="flex flex-col items-center">
+      <img alt="Icon representing medically fine-tuned models" class="mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/BOLB0YMnQiLWB1T8eFJzMSHASPIeykdUl1pgaD0Ep67EYVAUA.jpg" width="100"/>
+      <h3 class="text-xl font-bold mb-2">
+       Medically Fine-Tuned Models
+      </h3>
+      <p class="text-gray-700">
+       Neev's transcription and summarization models ensure accurate capture of clinical terms, diagnoses, and treatment details.
+      </p>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="Icon representing RAG architecture" class="mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/io5k46DSyD51FNWOTSZ1SyjENx92DelhNlk5QCHf5A2FYVAUA.jpg" width="100"/>
+      <h3 class="text-xl font-bold mb-2">
+       RAG Architecture
+      </h3>
+      <p class="text-gray-700">
+       Neev's Retrieval Augmented Graph (RAG) powered systems enhance accuracy in real-time transcriptions and summaries.
+      </p>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="Icon representing secure data privacy" class="mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/zLzeRnDvES3pU6ybLdsiq1oe1vrdzsicbgflVo1l64k9vqAoA.jpg" width="100"/>
+      <h3 class="text-xl font-bold mb-2">
+       Secure, Grade-A Data Privacy
+      </h3>
+      <p class="text-gray-700">
+       We prioritize patient confidentiality with robust, Grade-A data encryption and storage, safeguarding sensitive information at every step.
+      </p>
+     </div>
+    </div>
+   </section>
+   
+   <section class="text-center mb-12">
+    <h2 class="text-3xl font-bold mb-4">
+     Meet Our Team
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+     <div class="team-member flex flex-col items-center">
+      <img alt="Portrait of Abhinav Singh, AI/ML Engineer, IIT Madras Alumnus" class="rounded-full mb-4" height="150" src="abhinav.webp" width="150"/>
+      <h3 class="text-xl font-bold mb-2">
+       Abhinav Singh
+      </h3>
+      <p class="text-gray-700">
+       AI/ML Engineer, IIT Madras Alumnus
+      </p>
+     </div>
+     <div class="team-member flex flex-col items-center">
+      <img alt="Portrait of Dr. Saurabh Bajpai, Doctor, Leading Research" class="rounded-full mb-4" height="150" src="saurabh.webp" width="150"/>
+      <h3 class="text-xl font-bold mb-2">
+       Dr. Saurabh Bajpai
+      </h3>
+      <p class="text-gray-700">
+       Doctor, Leading Research
+      </p>
+     </div>
+     <div class="team-member flex flex-col items-center">
+      <img alt="Portrait of Mayank Agarwal, CA, SRCC Alumnus" class="rounded-full mb-4" height="150" src="mayank.jpg" width="150"/>
+      <h3 class="text-xl font-bold mb-2">
+       Mayank Agarwal
+      </h3>
+      <p class="text-gray-700">
+       CA, SRCC Alumnus
+      </p>
+     </div>
+     <div class="team-member flex flex-col items-center">
+      <img alt="Portrait of Prabesh Goyal, Data Engineer" class="rounded-full mb-4" height="150" src="pravesh.webp" width="150"/>
+      <h3 class="text-xl font-bold mb-2">
+       Prabesh Goyal
+      </h3>
+      <p class="text-gray-700">
+       Data Engineer
+      </p>
+     </div>
+     <div class="team-member flex flex-col items-center">
+      <img alt="Portrait of Ricky Bahrey, Product Designer" class="rounded-full mb-4" height="150" src="ricky.webp" width="150"/>
+      <h3 class="text-xl font-bold mb-2">
+       Ricky Bahrey
+      </h3>
+      <p class="text-gray-700">
+       Product Designer
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="text-center mb-12">
+    <h2 class="text-3xl font-bold mb-4">
+     Join the Future of Healthcare
+    </h2>
+    <p class="text-lg text-gray-700 mb-6">
+     Be among the first to experience the next generation of healthcare technology
+    </p>
+    <form class="flex flex-col items-center">
+     <input class="border border-gray-300 rounded-full px-4 py-2 mb-4 w-full max-w-md" placeholder="Enter your email" type="email"/>
+     <button class="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600" type="submit">
+      Join Waitlist
+     </button>
+    </form>
+   </section>
+  </main>
+  <div class="chatbot-container" id="chatbot">
+    <div class="chatbot-header">
+      <span>Chat with us</span>
+      <button onclick="toggleChatbot()">X</button>
+    </div>
+    <div class="chatbot-body" id="chatbot-body">
+      <!-- Chat messages will appear here -->
+    </div>
+    <div class="chatbot-footer">
+      <input type="text" id="chatbot-input" placeholder="Type a message..." onkeypress="handleKeyPress(event)">
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+  <img src="ai2.webp" alt="AI Doctor" class="chatbot-icon" id="chatbot-icon">
+  <button class="chatbot-toggle" onclick="toggleChatbot()">
+    <i class="fas fa-comments"></i>
+  </button>
+  <script>
+    function toggleChatbot() {
+      const chatbot = document.getElementById('chatbot');
+      const chatbotIcon = document.getElementById('chatbot-icon');
+      const isChatbotVisible = chatbot.style.display === 'flex';
+      chatbot.style.display = isChatbotVisible ? 'none' : 'flex';
+      chatbotIcon.style.display = isChatbotVisible ? 'none' : 'block';
+      if (!isChatbotVisible) {
+        setTimeout(() => {
+          chatbotIcon.style.display = 'none';
+        }, 30000);
+      }
+    }
+
+    async function sendMessage() {
+      const input = document.getElementById('chatbot-input');
+      const message = input.value.trim();
+      if (message) {
+        const chatbotBody = document.getElementById('chatbot-body');
+        const userMessage = document.createElement('div');
+        userMessage.textContent = message;
+        userMessage.style.textAlign = 'right';
+        chatbotBody.appendChild(userMessage);
+        input.value = '';
+        chatbotBody.scrollTop = chatbotBody.scrollHeight;
+
+        // Simulate a response from the chatbot
+        const botMessage = document.createElement('div');
+        botMessage.textContent = 'Thinking...';
+        chatbotBody.appendChild(botMessage);
+        chatbotBody.scrollTop = chatbotBody.scrollHeight;
+
+        // Fetch response from AI API
+        const response = await fetch('https://api.example.com/chatbot', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ message })
+        });
+        const data = await response.json();
+        botMessage.textContent = data.reply;
+        chatbotBody.scrollTop = chatbotBody.scrollHeight;
+      }
+    }
+
+    function handleKeyPress(event) {
+      if (event.key === 'Enter') {
+        sendMessage();
+      }
+    }
+
+    const toggleButton = document.getElementById('dark-mode-toggle');
+    toggleButton.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      const icon = toggleButton.querySelector('i');
+      if (document.body.classList.contains('dark-mode')) {
+        icon.classList.remove('fa-moon');
+        icon.classList.add('fa-sun');
+      } else {
+        icon.classList.remove('fa-sun');
+        icon.classList.add('fa-moon');
+      }
+    });
+  </script>
+  <footer class="bg-gray-100 py-6">
+   <div class="container mx-auto px-6">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+     <div>
+      <h3 class="text-xl font-bold mb-4">
+       About Us
+      </h3>
+      <ul class="space-y-2">
+       <li>
+        <a class="text-gray-600 hover:text-gray-900" href="#">
+         Leadership
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-600 hover:text-gray-900" href="#">
+         Commitment to Society
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-600 hover:text-gray-900" href="#">
+         News & Events
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h3 class="text-xl font-bold mb-4">
+       Products
+      </h3>
+      <ul class="space-y-2">
+       <li>
+        <a class="text-gray-600 hover:text-gray-900" href="#">
+         Neev Vision
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-600 hover:text-gray-900" href="#">
+         HealthTech 360
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-600 hover:text-gray-900" href="#">
+         Careers
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h3 class="text-xl font-bold mb-4">
+       Follow Us
+      </h3>
+      <div class="flex space-x-4">
+       <a class="text-gray-600 hover:text-gray-900" href="https://www.linkedin.com/company/neevhq/" target="_blank">
+        <i class="fab fa-linkedin text-2xl">
+        </i>
+       </a>
+       <a class="text-gray-600 hover:text-gray-900" href="https://www.youtube.com" target="_blank">
+        <i class="fab fa-youtube text-2xl">
+        </i>
+       </a>
+       <a class="text-gray-600 hover:text-gray-900" href="https://www.instagram.com" target="_blank">
+        <i class="fab fa-instagram text-2xl">
+        </i>
+       </a>
+       <a class="text-gray-600 hover:text-gray-900" href="https://www.twitter.com" target="_blank">
+        <i class="fab fa-twitter text-2xl">
+        </i>
+       </a>
+      </div>
+     </div>
+    </div>
+    <div class="flex justify-between items-center">
+     <div class="flex items-center">
+      <img alt="Neev logo in white color - a stylized representation of healthcare and technology integration" class="h-10 w-10" height="50" src="neev.svg" width="50"/>
+      <span class="ml-2 text-xl font-bold">
+       Neev
+      </span>
+     </div>
+     <div class="space-x-4">
+      <a class="text-gray-600 hover:text-gray-900" href="#">
+       Privacy Policy
+      </a>
+      <span class="text-gray-600">
+       |
+      </span>
+      <a class="text-gray-600 hover:text-gray-900" href="#">
+       Terms & Conditions
+      </a>
+     </div>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>

@@ -1,0 +1,240 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+ Career
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+  <style>
+    .team-member img {
+      transition: transform 0.3s ease-in-out;
+    }
+    .team-member img:hover {
+      transform: scale(1.1);
+    }
+    body.dark-mode {
+      background-color: #121212;
+      color: #ffffff;
+    }
+    body.dark-mode .bg-white {
+      background-color: #1e1e1e;
+    }
+    body.dark-mode .text-gray-600 {
+      color: #b0b0b0;
+    }
+    body.dark-mode .text-gray-700 {
+      color: #c0c0c0;
+    }
+    body.dark-mode .bg-gray-100 {
+      background-color: #2e2e2e;
+    }
+    body.dark-mode .border-gray-300 {
+      border-color: #444444;
+    }
+    body.dark-mode .hover\:text-gray-900:hover {
+      color: #e0e0e0;
+    }
+  </style>
+ </head>
+ <body class="font-roboto">
+  <header class="bg-white shadow-md">
+   <div class="container mx-auto flex justify-between items-center py-4 px-6">
+    <div class="flex items-center">
+     <a href="index.html">
+       <img alt="Neev logo in white color - a stylized representation of healthcare and technology integration" class="h-10 w-10" height="50" src="neev.svg" width="50"/>
+     </a>
+     <a href="index.html" class="ml-2 text-xl font-bold">
+      Neev
+     </a>
+    </div>
+    <nav class="space-x-4">
+
+     <a href="what-we-do.html" id="link">What We Do</a>
+    
+
+     <a href="whoweare.html" id="link">Who we are</a>
+
+     <a href="partners.html" id="link">Partners</a>
+
+     <a href="career.html" id="link">Career</a>
+    
+     <a href="miniproject.html" id="link">Mini Projects</a>
+     <a href="sign.html" id="link">Sign Up</a>
+
+    </nav>
+    <button id="dark-mode-toggle" class="bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600">
+      <i class="fas fa-moon"></i>
+    </button>
+   </div>
+  </header>
+  
+  <main class="container mx-auto px-6 py-12">
+    <section class="text-center mb-12">
+      <h1 class="text-4xl font-bold mb-4">Join Our Team</h1>
+      <p class="text-lg text-gray-700 mb-6">
+        We are looking for talented individuals to join our team. Check out our open positions below.
+      </p>
+    </section>
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+      <div class="job-listing bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-bold mb-4">Frontend Developer</h2>
+        <p class="text-lg text-gray-700 mb-4">
+          We are looking for a skilled Frontend Developer to join our team. You will be responsible for building and maintaining the user interface of our web applications.
+        </p>
+        <h3 class="text-xl font-bold mb-2">Responsibilities:</h3>
+        <ul class="list-disc list-inside mb-4">
+          <li>Develop and maintain web applications using HTML, CSS, and JavaScript</li>
+          <li>Collaborate with designers and backend developers to create a seamless user experience</li>
+          <li>Ensure the technical feasibility of UI/UX designs</li>
+          <li>Optimize applications for maximum speed and scalability</li>
+        </ul>
+        <h3 class="text-xl font-bold mb-2">Requirements:</h3>
+        <ul class="list-disc list-inside mb-4">
+          <li>Proven experience as a Frontend Developer</li>
+          <li>Strong knowledge of HTML, CSS, and JavaScript</li>
+          <li>Experience with frontend frameworks such as React or Angular</li>
+          <li>Familiarity with version control systems (e.g., Git)</li>
+        </ul>
+        <button class="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600">Apply Now</button>
+      </div>
+      <div class="job-listing bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-bold mb-4">Java Developer</h2>
+        <p class="text-lg text-gray-700 mb-4">
+          We are seeking a talented Java Developer to join our team. You will be responsible for developing and maintaining our backend systems and applications.
+        </p>
+        <h3 class="text-xl font-bold mb-2">Responsibilities:</h3>
+        <ul class="list-disc list-inside mb-4">
+          <li>Design, develop, and maintain Java-based applications</li>
+          <li>Collaborate with frontend developers and other team members to integrate applications</li>
+          <li>Write well-designed, efficient, and testable code</li>
+          <li>Troubleshoot and resolve software defects and issues</li>
+        </ul>
+        <h3 class="text-xl font-bold mb-2">Requirements:</h3>
+        <ul class="list-disc list-inside mb-4">
+          <li>Proven experience as a Java Developer</li>
+          <li>Strong knowledge of Java and related frameworks (e.g., Spring)</li>
+          <li>Experience with database systems (e.g., MySQL, PostgreSQL)</li>
+          <li>Familiarity with version control systems (e.g., Git)</li>
+        </ul>
+        <button class="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600">Apply Now</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-100 py-6">
+   <div class="container mx-auto px-6">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+     <div>
+      <h3 class="text-xl font-bold mb-4">
+       About Us
+      </h3>
+      <ul class="space-y-2">
+       <li>
+        <a class="text-gray-600 hover:text-gray-900" href="#">
+         Leadership
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-600 hover:text-gray-900" href="#">
+         Commitment to Society
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-600 hover:text-gray-900" href="#">
+         News & Events
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h3 class="text-xl font-bold mb-4">
+       Products
+      </h3>
+      <ul class="space-y-2">
+       <li>
+        <a class="text-gray-600 hover:text-gray-900" href="#">
+         Neev Vision
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-600 hover:text-gray-900" href="#">
+         HealthTech 360
+        </a>
+       </li>
+       <li>
+        <a class="text-gray-600 hover:text-gray-900" href="#">
+         Careers
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h3 class="text-xl font-bold mb-4">
+       Follow Us
+      </h3>
+      <div class="flex space-x-4">
+       <a class="text-gray-600 hover:text-gray-900" href="https://www.linkedin.com/company/neevhq/" target="_blank">
+        <i class="fab fa-linkedin text-2xl">
+        </i>
+       </a>
+       <a class="text-gray-600 hover:text-gray-900" href="https://www.youtube.com" target="_blank">
+        <i class="fab fa-youtube text-2xl">
+        </i>
+       </a>
+       <a class="text-gray-600 hover:text-gray-900" href="https://www.instagram.com" target="_blank">
+        <i class="fab fa-instagram text-2xl">
+        </i>
+       </a>
+       <a class="text-gray-600 hover:text-gray-900" href="https://www.twitter.com" target="_blank">
+        <i class="fab fa-twitter text-2xl">
+        </i>
+       </a>
+      </div>
+     </div>
+    </div>
+    <div class="flex justify-between items-center">
+     <div class="flex items-center">
+      <a href="index.html">
+        <img alt="Neev logo in white color - a stylized representation of healthcare and technology integration" class="h-10 w-10" height="50" src="neev.svg" width="50"/>
+      </a>
+      <a href="index.html" class="ml-2 text-xl font-bold">
+       Neev
+      </a>
+     </div>
+     <div class="space-x-4">
+      <a class="text-gray-600 hover:text-gray-900" href="#">
+       Privacy Policy
+      </a>
+      <span class="text-gray-600">
+       |
+      </span>
+      <a class="text-gray-600 hover:text-gray-900" href="#">
+       Terms & Conditions
+      </a>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <script>
+    const toggleButton = document.getElementById('dark-mode-toggle');
+    const body = document.body;
+
+    toggleButton.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+      const icon = toggleButton.querySelector('i');
+      if (body.classList.contains('dark-mode')) {
+        icon.classList.remove('fa-moon');
+        icon.classList.add('fa-sun');
+      } else {
+        icon.classList.remove('fa-sun');
+        icon.classList.add('fa-moon');
+      }
+    });
+  </script>
+ </body>
+</html>

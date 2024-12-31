@@ -1,0 +1,103 @@
+.calendar-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calendar-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(0, 123, 255, 0.5), rgba(0, 123, 255, 0.1));
+  border-radius: 15px;
+  z-index: 1;
+}
+.calendar-container img {
+  border-radius: 15px;
+  z-index: 2;
+}
+.chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  max-width: 100%;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: none;
+  flex-direction: column;
+  z-index: 1000;
+}
+.chatbot-header {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chatbot-body {
+  padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+}
+.chatbot-footer {
+  padding: 10px;
+  display: flex;
+}
+.chatbot-footer input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.chatbot-footer button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.chatbot-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1001;
+  box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5);
+  animation: rotate-ring 2s linear infinite;
+}
+@keyframes rotate-ring {
+  0% {
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5), 0 0 0 8px rgba(255, 0, 0, 0.5), 0 0 0 12px rgba(0, 255, 0, 0.5), 0 0 0 16px rgba(0, 0, 255, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 16px rgba(0, 123, 255, 0.5), 0 0 0 12px rgba(255, 0, 0, 0.5), 0 0 0 8px rgba(0, 255, 0, 0.5), 0 0 0 4px rgba(0, 0, 255, 0.5);
+  }
+}
+.chatbot-icon {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  display: none;
+  z-index: 1002;
+}
